@@ -49,28 +49,6 @@ search.addEventListener('click', () => {
                     container.classList.remove('active');
                 }, 2500);
 
-                switch (json.weather[0].main.toLowerCase()) {
-                    case 'clear':
-                        image.src = 'weather-clear-3.png';
-                        break;
-                    case 'rain':
-                        image.src = 'rain.jpg';
-                        break;
-                    case 'snow':
-                        image.src = 'snow.png';
-                        break;
-                    case 'clouds':
-                        image.src = 'clouds.jpg';
-                        break;
-                    case 'mist':
-                        image.src = 'mist.webp';
-                        break;
-                    case 'haze':
-                        image.src = 'haze.jpg';
-                        break;
-                    default:
-                        image.src = 'weather-clouds.png';
-                }
 
                 temperature.innerHTML = `${parseInt(json.main.temp)}<span>°C</span>`;
                 description.innerHTML = json.weather[0].description;
@@ -124,3 +102,4 @@ search.addEventListener('click', () => {
             }
         });
 });
+
