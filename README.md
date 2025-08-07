@@ -23,13 +23,8 @@ This is a simple and responsive weather forecast website that allows users to se
 
 ## 📸 Screenshots
 
-![Homepage Screenshot](wheather dashboard.JPG)
+![Homepage Screenshot](wheather%20dashboard.JPG)
 ![Search Result Screenshot](search.JPG)
 
 ---
 
-## 🧩 How to Use
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/weather-measure-website.git
